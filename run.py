@@ -32,4 +32,4 @@ print("Train set: \t\t{}".format(train_x.shape),
 print(padded_features[:30, :10])
 
 train_data, valid_data, test_data = Sentiment.generate_data_loaders(train_x, train_y, val_x, val_y, test_x, test_y)
-
+vocab_size = len()
